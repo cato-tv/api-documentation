@@ -1,0 +1,15 @@
+{
+    "name": "api-documentation",
+    "version": "1.0.0",
+    "description": "API Documentation for Cato TV",
+    "graphdoc": {
+        "endpoint": "http://18.224.135.76:4000/graphql",
+        "output": "./public"
+    },
+    "scripts": {
+        "build": "graphdoc -f"
+    },
+    "dependencies": {
+        "@2fd/graphdoc": "^2.4.0"
+    }
+}
