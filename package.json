@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "API Documentation for Cato TV",
     "graphdoc": {
-        "endpoint": "http://18.224.135.76:4000/graphql",
+        "endpoint": "http://206.189.139.37:30446/graphql",
         "output": "./public"
     },
     "scripts": {
